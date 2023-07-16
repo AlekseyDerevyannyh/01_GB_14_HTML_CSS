@@ -1,0 +1,247 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    background: var(--020-a-18, #020A18);
+    font-family: 'Open Sans', sans-serif;
+}
+
+.center {
+    padding-left: calc(50% - 1146px / 2);
+    padding-right: calc(50% - 1146px / 2);
+}
+
+.header {
+    background: rgb(11, 17, 30);
+
+    padding-top: 39px;
+    padding-bottom: 39px;
+
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    gap: 40px;
+}
+
+.header__link {
+    color: var(--ffffff, #FFF);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.top__content {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 128px;
+
+    padding-top: 160px;
+    padding-bottom: 197px;
+}
+
+.top__content__info {
+    width: 604px;
+}
+
+.top__content__heading {
+    color: var(--3-a-68-b-8, #3A68B8);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 160%;
+    text-transform: uppercase;
+
+    margin-bottom: 10px;
+}
+
+.top__content__title {
+    color: var(--ffffff, #FFF);
+    font-size: 55px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 130%;
+
+    margin-bottom: 40px;
+}
+
+.top__content__text {
+    color: var(--ffffff, #FFF);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 160%;
+
+    margin-bottom: 50px;
+}
+
+.top__content__buttons {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.top__content__button {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    display: inline-block;
+    background: var(--3-a-68-b-8, #3A68B8);
+    border-radius: 5px;
+    padding: 15px 30px;
+}
+
+.top__content__link {
+    background: var(--3-a-68-b-8, #3A68B8);
+    color: var(--ffffff, #FFF);
+
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex-direction: row;
+}
+
+.logos {
+    margin-bottom: 100px;
+
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    gap: 71px;
+}
+
+.top__body {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    gap: 68px;
+
+    margin-top: 157px;
+    margin-bottom: 264px;
+}
+
+.top__body__info {
+    width: 484px;
+}
+
+.top__body__title {
+    color: var(--ffffff, #FFF);
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 130%;
+
+    margin-top: 117px;
+    margin-bottom: 30px;
+}
+
+.top__body__text {
+    color: var(--ffffff, #FFF);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 160%;
+
+    margin-bottom: 50px;
+}
+
+.top__body__buttons {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.top__body__button {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    display: inline-block;
+    background: var(--3-a-68-b-8, #3A68B8);
+    border-radius: 5px;
+    padding: 15px 30px;
+}
+
+.top__body__link {
+    background: var(--3-a-68-b-8, #3A68B8);
+    color: var(--ffffff, #FFF);
+}
+
+.main__body {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    margin-bottom: 50px;
+}
+
+.main__body__item {
+    border-radius: 10px;
+    background: #132035;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+    padding: 30px;
+}
+
+.main__body__item__big {
+    grid-column: span 2;
+    grid-row: span 2;
+    gap: 60px;
+}
+
+.main__body__item__title {
+    color: var(--ffffff, #FFF);
+    text-align: center;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 125%;
+}
+
+.main__body__item__text {
+    color: var(--ffffff, #FFF);
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 160%;
+}
+
+@media (max-width: 1024px) {
+    .center {
+        padding-left: calc(50% - 767px / 2);
+        padding-right: calc(50% - 767px / 2);
+    }
+
+    .header {
+        gap: 32px;
+    }
+
+    .top__content__heading {
+        font-size: 16px;
+    }
+
+    .top__content__title {
+        font-size: 48px;
+    }
+
+    .logos {
+        gap: 32px;
+        margin-bottom: 120px;
+    }
+}
