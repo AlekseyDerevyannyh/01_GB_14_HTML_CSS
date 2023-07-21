@@ -50,7 +50,7 @@ body {
 }
 
 .top__content__info {
-    width: 604px;
+    max-width: 604px;
 }
 
 .top__content__heading {
@@ -257,16 +257,16 @@ body {
 
 }
 
-@media (max-width: 376px) {
+@media (max-width: 767px) {
     .center {
-        padding-left: calc(50% - 375px / 2);
-        padding-right: calc(50% - 375px / 2);
+        padding-left: calc(50% - 767px / 2);
+        padding-right: calc(50% - 767px / 2);
     }
 
     .header {
         padding-left: 46px;
         padding-right: 45px;
-        justify-content: space-around;
+        justify-content: space-between;
         gap: 0px;
     }
 
@@ -317,6 +317,14 @@ body {
         padding-bottom: 108px;
         flex-direction: column;
         align-items: center;
+        gap: 32px;
+    }
+
+    .logos__left {
+        padding-left: 16px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
         gap: 32px;
     }
 

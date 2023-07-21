@@ -50,7 +50,7 @@ body {
 }
 
 .top__content__info {
-    width: 604px;
+    max-width: 604px;
 }
 
 .top__content__heading {
@@ -300,10 +300,10 @@ body {
 
 }
 
-@media (max-width: 375px) {
+@media (max-width: 767px) {
     .center {
-        padding-left: calc(50% - 375px / 2);
-        padding-right: calc(50% - 375px / 2);
+        padding-left: calc(50% - 767px / 2);
+        padding-right: calc(50% - 767px / 2);
     }
 
     .header {
@@ -450,7 +450,7 @@ body {
     .bottom__body__text {
         font-size: 16px;
         text-align: center;
-        
+
         width: calc(100% - 32px);
         gap: 16px;
     }
