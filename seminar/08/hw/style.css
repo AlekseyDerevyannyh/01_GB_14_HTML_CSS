@@ -363,8 +363,9 @@ body {
 
     .fetured_item_button {
         position: absolute;
-        top: 188px;
-        left: 111px;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
         gap: 12px;
         align-items: center;
         border: 1px solid white;
@@ -466,12 +467,6 @@ body {
     .fetured_img {
         width: 100%;
         height: auto;
-    }
-
-    .fetured_item_button {
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%,-50%);
     }
 
     .bottom_section {
