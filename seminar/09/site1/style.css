@@ -16,5 +16,5 @@
 }
 
 .menu__list:nth-child(3) .menu__link{
-    color:orange;
+    background-color:orange;
 }
