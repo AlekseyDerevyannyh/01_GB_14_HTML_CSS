@@ -27,7 +27,7 @@ body {
 
     padding-top: 18px;
     padding-bottom: 19px;
-    /* position: relative; */
+    position: relative;
 }
 
 .header_left {
@@ -48,7 +48,7 @@ body {
 }
 
 .header_menu {
-    display: block;
+    display: none;
     background: white;
     filter: drop-shadow(6px 4px 35px rgba(0, 0, 0, 0.21));
     position: absolute;
@@ -89,12 +89,9 @@ body {
     margin-right: 22px;
 }
 
-.header_right:hover .header_menu {
+.header:hover .header_menu {
     display: block;
 }
-/* .header_right_link:hover .cart_count {
-    display: none;
-} */
 
 .cart_count {
     display: block;
